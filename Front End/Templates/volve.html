@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Machine Learning of the Equinor – Volve Production Data Set </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body style="background-color: lightgray">
+     
+    <div class="navbar-header col-md-12 navbar  jumbotron jumbotron-fluid bgimg">
+
+        <h1 class="Title">Machine Learning of the Equinor – Volve Production Data Set</h1>
+  
+        <h3 class="textfont textnav"> 
+            Suparna Bhattacharjee</h3>
+        <h3 class="textfont textnav"> 
+            Sruthi Karicheri </h3>
+        <h3 class="textfont textnav"> 
+            Jennie Ran</h3>
+
+        <a href="https://github.com/sgk2004/Volve-Dataset.git" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true">GitHub Repository</a>
+        <!-- <button type= 'button' a href="https://github.com/sgk2004/Volve-Dataset.git" class="btn btn-outline-secondary" role="button">GitHub Repository</button> -->
+        <!-- <button type="button" class="btn btn-outline-dark">GitHub Repository</button>
+        <a href="https://github.com/sgk2004/Volve-Dataset.git" style="color:white";> GitHub Repository</a> -->
+    </div>  
+       
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="container-fluid">
+                <h3 class="headers">Overview</h3>
+                    <p>The Volve oil field is located in Block 15/9 in the southern part of the Norwegian North Sea, at a water depth of around 80m. 
+                        It is situated approximately 200km west of Stavanger and 8km from the Sleipner Ost Field. 
+                        The dataset contains information from 7 production wells in the Volve Field for a period from 2008 to 2014.</p>
+                <h3 class="headers">Scope of the Project</h3>
+                    <ol>
+                        <li>To understand the interdependencies of the different variables in the dataset (Eg; choke size, downhole pressure etc.) 
+                            with the output (Eg; oil rate, gas rate and water rate and also their ratios like gas/oil and water/oil rate).</li>
+                        <li>To build a prediction model to determine downhole pressure of a test well.</li>
+                        <li>To predict the choke size for a given gas and oil rate.</li>
+                    </ol>
+   
+                <h3 class="headers">Assumptions for Data Analysis</h3>
+                    <ol>
+                        <li>1.	We have done analysis of different variables for the 7 wells in the dataset. 
+                            Two of those wells did not have any production at all, so we dropped them. 
+                            Among the five candidate wells, we found two clusters of wells, considering production conditions such as locations of the wells in the field and production period (Figure 1). 
+                            Two wells are situated at the structural crest of the field and have been producing from 2008. The other 3 wells are situated on the flanks of the structure and has production from 2013-14 period.  
+                            All these well could be separated by faults that may compartmentalize the reservoir (hydrocarbon tank).We have formed two clusters in our dataset based on this clustering. 
+                            Also, during production period there are days of production shut-in probably for mechanical or pressure maintenances. Those days have been eliminated from this analysis.</li>
+                        <li>2.	Each row is an instant of time, during the production period, in chronological order, that gives us the daily production rate as a function of the other variables on that day. Our models will be able to predict the choke size and the downhole pressure of the well, based on other variables. 
+                            On any given instant, these outputs are independent of the previous outputs, they are mutually independent and all samples belong to the same dataset and identical to each other.  </li>
+                    </ol>
+
+                <h3 class="headers">Analysis 1</h3>
+
+    
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container-fluid">
+                <img class= "equinor" src="../static/Images/Equinor.png" alt="Equinor Logo">
+                <hr>
+                <div class="row">
+                    <div class="container-fluid">
+                        <img class="img-fluid" alt="wells" src="../static/Images/Wells.png">
+                        <p>Figure 1. Locations of the 5 wells and their time periods of production, showing the two clusters of wells. 
+                            Wells 1 and 2 are on crest and 3-5 are on the flank reservoir.</p>
+                </div>
+          
+            </div>
+        </div>
+    </div>
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="../static/volve.js"></script>
+
+    
+
+
+</body>
+
+</html>

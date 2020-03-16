@@ -1,0 +1,102 @@
+
+
+body {
+    background-color: rgb(230, 234, 238);
+}
+
+.navbar-header {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+}
+
+.btn {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color : white;
+}
+
+
+.Title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.textfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 0.7;
+}
+
+.headers{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.container-fluid{
+    background-color : white;
+}
+
+.equinor {
+    width:250px;
+    height:200px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-oil {
+    max-width: auto;
+    height: auto;
+}
+
+.col-md-8 {
+    border-left: 5px;
+}
+
+
+.captiontext{
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.textnav {    
+    text-align:center;
+    
+
+}
+.jumbotron .h1, .jumbotron h1 {
+    color:white;
+  }
+
+.navbarwd {
+    width: 100%;
+    margin-left:0px;
+    margin-right: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 0px;
+    scroll-padding-left: 0px;
+    background-color : 'blue';
+    overflow: auto;
+    position: fixed;
+         }
+
+  .tablealign{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center; 
+    vertical-align: middle;
+  }
