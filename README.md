@@ -12,31 +12,35 @@ a.	Extraction and Understanding of the production and subsurface dataset.
     
     Analyze the various production parameters from each well and establish correlations and variances.
 
-b.	Transforming the dataset 
+b.	Transforming the dataset
+:notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
 
     – Performing some data wrangling and clean up
     - exploratory data analysis
     
-    :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
+    
     
 c.	Design training and testing parameters/wells.
+ :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
 
     - linear regression 
     - Basic Linear model with Lasso shrinkage
     - random forest regression model 
     
-    :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
+   
     
     -Gridsearch CV
+ :notebook_with_decorative_cover: NOTEBOOK -
         -Tune Lasso Model
         -Tune Randomforest Model
       
-     :notebook_with_decorative_cover: NOTEBOOK -
+    
      
      -Neural Network Model
+  :notebook_with_decorative_cover: NOTEBOOK -   
         -Hyperas tuning of NN
      
-     :notebook_with_decorative_cover: NOTEBOOK -    
+     
 
 
 ###### Our Website [GitHub Pages](https://pages.github.com/)
