@@ -13,12 +13,14 @@ a.	Extraction and Understanding of the production and subsurface dataset.
     Analyze the various production parameters from each well and establish correlations and variances.
 
 b.	Transforming the dataset 
+
     – Performing some data wrangling and clean up
     - exploratory data analysis
     
     ######## NOTEBOOK - data_etl.ipynb
     
 c.	Design training and testing parameters/wells.
+
     - linear regression 
     - Basic Linear model with Lasso shrinkage
     - random forest regression model 
