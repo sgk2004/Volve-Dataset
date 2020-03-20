@@ -1,6 +1,6 @@
-# PREDICTION OF DOWNHOLE PRESSURE USING MACHINE LEARNING MODELS
+# PREDICTION OF DOWNHOLE PRESSURE USING MACHINE LEARNING MODELS :computer:
 
-## Suparna Bhattacharjee,  Sruthi Karicheri, Jennie Ran (https://github.com/jran14)
+## Suparna Bhattacharjee(https://github.com/suparnabh),  Sruthi Karicheri, Jennie Ran (https://github.com/jran14)
 
 ###### Scope of the Project::point_down:
 
@@ -17,7 +17,7 @@ b.	Transforming the dataset
     – Performing some data wrangling and clean up
     - exploratory data analysis
     
-    # NOTEBOOK - data_etl.ipynb
+    :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
     
 c.	Design training and testing parameters/wells.
 
@@ -25,25 +25,18 @@ c.	Design training and testing parameters/wells.
     - Basic Linear model with Lasso shrinkage
     - random forest regression model 
     
-    ######## NOTEBOOK - data_etl.ipynb
+    :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
     
     -Gridsearch CV
         -Tune Lasso Model
         -Tune Randomforest Model
       
-      ######## NOTEBOOK -
+     :notebook_with_decorative_cover: NOTEBOOK -
      
      -Neural Network Model
         -Hyperas tuning of NN
      
-     ######## NOTEBOOK -    
-     
- 
- EXTRAS: For further reasearch and analysis
-    
-        -Exploratory data analysis and trying models on individul wells and separately on crest and flank wells
-        
-        ######## NOTEBOOK -  EDA_individualwells.ipynb
+     :notebook_with_decorative_cover: NOTEBOOK -    
 
 
 ###### Our Website [GitHub Pages](https://pages.github.com/)
