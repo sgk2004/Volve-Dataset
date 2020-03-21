@@ -31,13 +31,14 @@ c.	Design training and testing parameters/wells.
     
     -Gridsearch CV
  :notebook_with_decorative_cover: NOTEBOOK - Final Notebooks_Hyppertuning and Plots/grid_randomized_searchcv.ipynb
+ 
         -Tune Lasso Model
-        -Tune Randomforest Model
-      
+        -Tune Randomforest Model 
     
      
      -Neural Network Model
   :notebook_with_decorative_cover: NOTEBOOK - NeuralAnalysis.ipynb
+  
         -Hyperas tuning of NN
      
      
