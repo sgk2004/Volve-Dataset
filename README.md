@@ -1,6 +1,6 @@
 # PREDICTION OF DOWNHOLE PRESSURE USING MACHINE LEARNING MODELS :computer:
 
-##  Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh),Jennie Ran (https://github.com/jran14)
+##  Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh), Jennie Ran (https://github.com/jran14)
 
 ###### Scope of the Project::point_down:
 
