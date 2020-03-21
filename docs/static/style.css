@@ -1,0 +1,234 @@
+
+
+#body {
+    background-color: rgb(230, 234, 238);
+    width: 100%;    
+    position: relative;
+    
+}
+
+
+.navbar-header {
+    position:relative;
+    
+}
+
+
+
+.btn {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color : white;
+}
+
+
+.Title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 7, 97);
+    
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.textfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 1, 7);
+    font-size: 18px;
+    text-align: justify;
+    
+    padding-top: 10px;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+/* .row {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+/* } */ */
+.headers{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.container-fluid{
+    background-color : white;
+}
+
+.bgimg {
+    background-image: url('Images/oil_rig2.jpg');
+    backface-visibility: visible;
+    max-width: 100% ;
+    
+}
+
+/* .imglocation {
+    background-image: url('Images/map_field.jpg');
+    backface-visibility: visible;
+    max-width: 100% ;
+    max-height:100%;
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-oil {
+    max-width: auto;
+    height: auto;
+}
+
+
+
+
+.captiontext{
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.textnav {    
+    text-align:center;
+    
+
+}
+.jumbotron .h1, .jumbotron h1 {
+    color:rgb(41, 21, 97);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0;
+  }
+
+.navbarwd {
+    width: 50px;
+    margin-left:0px;
+    margin-right: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 0px;
+    scroll-padding-left: 0px;
+    background-color : 'blue';
+    overflow: auto;
+    position: fixed;
+         }
+
+  .tablealign{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center; 
+    vertical-align: middle;
+  }
+  .marpadnav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+
+  }
+  .marpadleft {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    
+  }
+
+.marpadright {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  
+}
+
+.marpadmap {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    
+  }
+
+.marpad_row2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        /* width: 75%; */
+
+  }
+
+  .marpad {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+
+
+  .img-size{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.full-height {
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .col {
+      display: block;
+      width: 100%;
+    }
+  }

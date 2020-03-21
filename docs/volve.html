@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Machine Learning of the Equinor – Volve Production Data Set </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar-header col-md-12 navbar bgimg marpadnav">
+        <h1 class="Title">Prediction Of Downhole Pressure Using Machine Learning Methods - A Case Study</h1>
+        <h4 class="textfont textnav">
+            Suparna Bhattacharjee</h4>
+        <h4 class="textfont textnav">
+            Sruthi Karicheri </h4>
+        <h4 class="textfont textnav">
+            Jennie Ran</h4>
+        <div>
+            <a href="https://github.com/sgk2004/Volve-Dataset.git" class="btn btn-outline-secondary btn-sm active"
+                role="button" aria-pressed="true" class="textfont">GitHub Repository</a>
+
+        </div>
+
+    </div>
+    <!-- End Navigation Bar -->
+
+    <div class="col-container">
+        <!-- First Row -->
+        <div class="row"  >
+            <div class="col-lg-9">
+                <h3 class="headers">Introduction</h3>
+                <p class="textfont">In 2018, Equinor released a comprehensive set of oilfield data from the
+                    Volve Field in the North Sea for public research and development. The Volve Field is located
+                    (Figure 1) approximately 200 km west of Stavanger, Norway. The field was discovered in 1993
+                    and approved for production in 2005. Subsequently the field was decommissioned in 2018 as the
+                    oil and gas production
+                    became uneconomical. In this study, we used production data from the Volve
+                    Field. During the 2008 to 2016 period a number of wells produced oil and associated gas from
+                    this field. This case study was carried out for the partial fulfillment of the Data
+                    Analytics Boot Camp at the Rice University, Houston, USA.
+                </p>
+                <h3 class="headers">Scope of the Project</h3>
+                <p class="textfont">Oil and gas production is a highly capital-intensive process and it is
+                    associated with high HSE risk. Therefore, a large number of sensors/gauges are used to
+                    monitor seamless production of fluids from each of the wells in a field. These sensors are
+                    generally classified into two, downhole sensors and wellhead sensors. The downhole sensors
+                    are costly due to the extreme conditions (e.g. pressure and temperature) that they need to
+                    withstand down the hole and also have associated high maintenance cost. Therefore, an
+                    opportunity to avoid installation of downhole sensors, without compromising the flow
+                    assurance as well as safety of the well is highly desired by production companies.
+                </p>
+                <p class="textfont">
+                    In this study, we explore various Machine Learning (ML) methods that could
+                    potentially predict the downhole pressure data, which traditionally is measured using a
+                    downhole sensor, from various wellhead measurements.  
+                </p>           
+                
+
+            </div>
+            <div class="col-lg-3">
+                <img class="img-fluid img-size" alt="wells" src="static/Images/map_field.jpg">
+                <p align="center">Figure 1</p>
+
+            </div>
+            
+        </div>
+        <hr style="border: none; border-bottom: 1px solid rgb(27, 4, 235);">
+        <!-- End First Row -->
+
+        <!-- Second Row -->
+        <div class="row" >
+            <div class="col-lg-4">
+                <img class="img-fluid img-size" align="center" alt="target_variables" src="static/Images/Wells.png">
+            </div>
+
+            <div class="col-lg-8">
+                <h3 class="headers">Production and Data Overview</h3>
+                <p class="textfont">Among the data released, five wells have the complete data sets (Variables) that
+                    could be used in the ML (Figure 2). Among those five wells, two discovery wells were drilled on
+                    the crest of the structure and three appraisal wells were drilled on its flanks. All these wells
+                    are either highly deviated or horizonal in geometry. The two discovery wells started production
+                    from 2008, while the commencements of production from the three appraisal wells were by the end
+                    of 2013 and early 2014.
+                </p>
+                <p class="textfont">All the five wells got a total of 24 categorical and numerical data (Variable)
+                    from both wellhead and downhole measurements. Out of the total number of variables, five
+                    numerical variables such as, choke size, wellhead pressure, wellhead temperature, oil volume,
+                    gas volume and water volume were taken as test variables and downhole pressure was taken as the
+                    target variable (Figure 3).
+                </p>
+                <img class="img-fluid img-size" alt="histogram" src="static/Images/histogram.jpg">
+                <p align="center">
+                    Figure 3
+                </p>
+            </div>
+        </div>
+        <hr style="border: none; border-bottom: 1px solid rgb(27, 4, 235);">
+        <!-- End of second Row -->
+
+        <!-- Third Row -->
+
+        <div class="row " >
+            <div class="col-lg-4 marpadleft " style="background-color: lightgray">
+                <div class="container-fluid ">
+                    <h3 class="headers">Project Workflow </h3>
+                    <br>
+                    <br>
+                    <p class="textfont">The project was carried out in five major steps (Figure 5):</p>
+                    <ul>
+                        <li class="textfont">
+                            Data audit
+                        </li>
+                        <br>
+                        <li class="textfont">
+                            Data Cleaning and Wrangling
+                        </li>
+                        <br>
+                        <li class="textfont">
+                            Exploratory Data Analysis
+                        </li>
+                        <br>
+                        <li class="textfont">
+                            Machine Learning
+
+                            <ul>
+                                <li class="textfont">
+                                    Linear Regression
+                                </li>
+                                <li class="textfont">
+                                    Random Forrest
+                                </li>
+                                <li class="textfont">
+                                    Neural Network
+                                </li>
+                            </ul>
+
+                        </li>
+                        <br>
+                        <li class="textfont">
+                            Model Selection
+                        </li>
+                        <br>
+                        <br>
+                        <br>
+                        <p class="textfont">* The machine learning methods have been fine tuned at each case for better
+                            results. The raw runs were generally provided lower coefficient</p>
+                        <br>
+
+
+                    </ul>
+
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-8 marpad_row2">
+                <div class="container-fluid">
+
+                    <img class="img-fluid  img-size" alt="histogram" src="static/Images/workflow.jpg">
+                    <p align="center">Figure 3</p>
+                </div>
+            </div>
+        </div>
+        <hr style="border: none; border-bottom: 1px solid rgb(27, 4, 235);">
+
+    
+        <!-- End of third row -->
+
+        <!-- Fourth Row -->
+
+        <div class="row">
+            <div class="col-lg-12 marpad_row2">
+                <div class="container-fluid">
+                    <h3 class="headers">Model Selection & Conclusion</h3>
+
+                    <p class="textfont">The three Machine Learning methods (Figure 6) provided varying levels of
+                        predictability of downhole pressure from the wellhead variables (Table 1). While the Linear
+                        regression method gave least predictability (R2 = 0.56), Neural network method provided the
+                        highest level of predictability (R2 = 0.89). Random Forrest method gave R2 value 0.82
+                        predictability.</p>
+                    <br>
+                    <p class="textfont">The study overall concludes that downhole pressure could be reasonably well
+                        predicted from the wellhead measurements, using either the Neural Network or the Random Forrest
+                        method. At the other end, the linear regression method cannot be used for reliable downhole
+                        pressure prediction.</p>
+
+                </div>
+            </div>
+        </div>
+        <hr style="border: none; border-bottom: 1px solid rgb(27, 4, 235);">
+
+
+        <!-- End of fourth row -->
+
+        <!-- Fifth Row -->
+
+        <div class="row">
+            <div class="col-lg-12 marpadleft" style="background-color: lightgray">
+                <img class="img-fluid img-size" align="center" alt="target_variables" src="static/Images/ML.jpg" height="42" width="42">
+            </div>
+        </div>
+        <hr style="border: none; border-bottom: 1px solid rgb(27, 4, 235);">
+
+
+
+        <!-- End of fifth row -->
+
+
+    </div>
+
+
+
+</body>
+
+</html>
