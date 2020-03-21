@@ -1,6 +1,6 @@
 # PREDICTION OF DOWNHOLE PRESSURE USING MACHINE LEARNING MODELS :computer:
 
-## Suparna Bhattacharjee(https://github.com/suparnabh),  Sruthi Karicheri, Jennie Ran (https://github.com/jran14)
+##  Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh),Jennie Ran (https://github.com/jran14)
 
 ###### Scope of the Project::point_down:
 
@@ -30,18 +30,18 @@ c.	Design training and testing parameters/wells.
    
     
     -Gridsearch CV
- :notebook_with_decorative_cover: NOTEBOOK -
+ :notebook_with_decorative_cover: NOTEBOOK - Final Notebooks_Hyppertuning and Plots/grid_randomized_searchcv.ipynb
         -Tune Lasso Model
         -Tune Randomforest Model
       
     
      
      -Neural Network Model
-  :notebook_with_decorative_cover: NOTEBOOK -   
+  :notebook_with_decorative_cover: NOTEBOOK - NeuralAnalysis.ipynb
         -Hyperas tuning of NN
      
      
 
 
-###### Our Website [GitHub Pages](https://pages.github.com/)
+###### Our Website [GitHub Pages](https://sgk2004.github.io/Volve-Dataset/)
 
