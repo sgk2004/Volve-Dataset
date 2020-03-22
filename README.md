@@ -40,6 +40,11 @@ c.	Design training and testing parameters/wells.
   :notebook_with_decorative_cover: NOTEBOOK - NeuralAnalysis.ipynb
   
         -Hyperas tuning of NN
+        
+   # Final Report :- Project 3 Report.docx
+   # Presentation slide :- ml_presentation.pptx
+   
+   # # Individual well analysis - EDA_individualwells.ipynb (for future analysis)
      
      
 
