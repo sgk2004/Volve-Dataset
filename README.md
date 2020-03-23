@@ -1,6 +1,6 @@
 ![](Plots/dash.jpg)
 
-##  Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh), Jennie Ran (https://github.com/jran14)
+Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh), Jennie Ran (https://github.com/jran14)
 
 ###### Scope of the Project::point_down:
 
@@ -52,4 +52,6 @@ c.	Design training and testing parameters/wells.
 
 
 ###### Our Website [Machine Learning o the Equinor Volve Field Production Data](https://sgk2004.github.io/Volve-Dataset/)
+
+![](Plots/results.JPG)
 
