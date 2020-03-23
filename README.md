@@ -8,6 +8,8 @@ Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh), Jennie Ra
 2.	To understand the interdependencies of the different variables in the dataset 
 
 ###### Task Breakdown::point_down:
+
+![](Plots/worklow.JPG)
 a.	Extraction and Understanding of the production and subsurface dataset. 
     
     Analyze the various production parameters from each well and establish correlations and variances.
