@@ -9,7 +9,7 @@ Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh), Jennie Ra
 
 ###### Task Breakdown::point_down:
 
-![](Plots/worklow.JPG)
+![](Plots/workflow.JPG)
 a.	Extraction and Understanding of the production and subsurface dataset. 
     
     Analyze the various production parameters from each well and establish correlations and variances.
