@@ -53,7 +53,7 @@ c.	Design training and testing parameters/wells.
      
 
 
-###### Our Website [Machine Learning o the Equinor Volve Field Production Data](https://sgk2004.github.io/Volve-Dataset/)
+###### Our Website [Machine Learning of the Equinor Volve Field Production Data](https://sgk2004.github.io/Volve-Dataset/)
 
 ![](Plots/results.JPG)
 
