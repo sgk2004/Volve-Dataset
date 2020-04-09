@@ -10,6 +10,7 @@ Sruthi Karicheri, Suparna Bhattacharjee(https://github.com/suparnabh), Jennie Ra
 ###### Task Breakdown::point_down:
 
 ![](Plots/workflow.JPG)
+
 a.	Extraction and Understanding of the production and subsurface dataset. 
     
     Analyze the various production parameters from each well and establish correlations and variances.
@@ -31,26 +32,24 @@ c.	Design training and testing parameters/wells.
     
     
  :notebook_with_decorative_cover: NOTEBOOK - Final Notebooks_Hyppertuning and Plots/grid_randomized_searchcv.ipynb
+ 
         -Gridsearch CV
         -Tune Lasso Model
         -Tune Randomforest Model 
      
      
   :notebook_with_decorative_cover: NOTEBOOK - NeuralAnalysis.ipynb
+  
         -Neural Network Model
         -Hyperas tuning of NN
         
-  :notebook_with_decorative_cover: NOTEBOOK individual well analysis - EDA_individualwells.ipynb (for future analysis)
+  :notebook_with_decorative_cover: NOTEBOOK individual well analysis 
+  
+        - EDA_individualwells.ipynb (for future analysis)
         
    # Final Report :- Project 3 Report.docx
-   # Presentation slide :- ml_presentation.pptx
-   
-   
-     
-     
-
-
-###### Our Website [Machine Learning of the Equinor Volve Field Production Data](https://sgk2004.github.io/Volve-Dataset/)
+   # Presentation slide :- ml_presentation.pptx 
+   # Our Website [Machine Learning of the Equinor Volve Field Production Data](https://sgk2004.github.io/Volve-Dataset/)
 
 ![](Plots/results.JPG)
 
