@@ -18,29 +18,26 @@ b.	Transforming the dataset
 :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
 
     – Performing some data wrangling and clean up
-    - exploratory data analysis
-    
+    - exploratory data analysis   
     
     
 c.	Design training and testing parameters/wells.
+ 
  :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
 
     - linear regression 
     - Basic Linear model with Lasso shrinkage
-    - random forest regression model 
+    - random forest regression model  
     
-   
     
-    -Gridsearch CV
  :notebook_with_decorative_cover: NOTEBOOK - Final Notebooks_Hyppertuning and Plots/grid_randomized_searchcv.ipynb
- 
+        -Gridsearch CV
         -Tune Lasso Model
         -Tune Randomforest Model 
-    
      
-     -Neural Network Model
+     
   :notebook_with_decorative_cover: NOTEBOOK - NeuralAnalysis.ipynb
-  
+        -Neural Network Model
         -Hyperas tuning of NN
         
   :notebook_with_decorative_cover: NOTEBOOK individual well analysis - EDA_individualwells.ipynb (for future analysis)
