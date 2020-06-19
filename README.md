@@ -16,15 +16,18 @@ a.	Extraction and Understanding of the production and subsurface dataset.
     Analyze the various production parameters from each well and establish correlations and variances.
 
 b.	Transforming the dataset
-:notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
+:notebook_with_decorative_cover: NOTEBOOK - [jupyternotebook](https://github.com/sgk2004/Volve-Dataset/blob/master/data_etl.ipynb)
 
     – Performing some data wrangling and clean up
-    - exploratory data analysis   
+    - exploratory data analysis
+        - Pair plots
+        - Heat map
+        - Histogram
     
     
 c.	Design training and testing parameters/wells.
  
- :notebook_with_decorative_cover: NOTEBOOK - data_etl.ipynb
+ :notebook_with_decorative_cover: NOTEBOOK - [jupyternotebook](https://github.com/sgk2004/Volve-Dataset/blob/master/data_etl.ipynb)
 
     - linear regression 
     - Basic Linear model with Lasso shrinkage
