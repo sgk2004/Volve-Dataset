@@ -46,6 +46,8 @@
     display: table; /* Make the container element behave like a table */
    /* width: 100%;  Set full-width to expand the whole page */
     display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 /* .row {
