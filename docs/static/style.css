@@ -2,7 +2,7 @@
 
 #body {
     background-color: rgb(230, 234, 238);
-    width: 80%;    
+    width: 100%;    
     position: relative;
     
 }
@@ -44,9 +44,7 @@
 
 .col-container {
     display: table; /* Make the container element behave like a table */
-    width: 100%;  /*Set full-width to expand the whole page */
-    
-
+    width: 100%; /* Set full-width to expand the whole page */
 }
 
 /* .row {
