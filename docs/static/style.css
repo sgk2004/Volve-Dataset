@@ -46,7 +46,7 @@
 .col-container {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
-    padding : 75%
+    padding : 5%
 }
 
 /* .row {
